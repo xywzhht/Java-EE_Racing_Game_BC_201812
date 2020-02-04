@@ -1,12 +1,34 @@
-## Welcome to GitHub Pages
+## Racing games based on Java EE -- speed revolution
 
-You can use the [editor on GitHub](https://github.com/xywzhht/xywzhht.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a racing shooting game, you have a luxury sports car, you can shoot bullets, defeat the enemy, different levels have different scenes, your car will be different.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Basic requirements of the game:
 
-### Markdown
+1. The main character's car attack √
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2. Mobile attack of enemy racing car √
+
+3. Mobile attack of boss √
+
+4. Move and switch the background picture √
+
+Requirements for the game:
+
+1. Multiple enemy roles, multiple NPCs √
+
+2. Multiple items dropped √
+
+3. Set multiple levels √
+
+### Environmental configuration
+
+Operating system: Microsoft Windows
+
+Program language: Java
+
+Development package: Java JDK 1.8.0 development kit
+
+Development tool: Eclipse
 
 ```markdown
 Syntax highlighted code block
