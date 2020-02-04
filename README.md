@@ -1,4 +1,4 @@
-## Racing games based on Java EE -- speed revolution
+# Racing games based on Java EE -- speed revolution
 
 This is a racing shooting game, you have a luxury sports car, you can shoot bullets, defeat the enemy, different levels have different scenes, your car will be different.
 
@@ -32,8 +32,31 @@ Development tool: Eclipse
 
 ![Image](https://github.com/xywzhht/xywzhht.github.io/blob/master/KillerCar/img/6.jpg)
 
+### Rules of the game
+
+
+### architecture design
+
+
+### Game interface
+
+### Innovation point: background rolling
+The reason why a car becomes a car is that the car is moving. In this game, in order to achieve the effect of racing, the effect of rolling from the background is reflected. 
+In order to achieve a better effect of background rotation and rolling, in order to truly move the car in the actual game process, the project innovatively modified the method, defined two img objects with the same background map, staggered moving with the refresh of the thread, truly realize the seamless connection of the background map, and create a good game experience for the players.
+
+### collision detection
+A very important place in the game is collision detection, which is mainly the collision judgment between the protagonist's car and the enemy, and between the protagonist and other characters in the game.
+
+In this game, because the driving is based on the track, the car and driving will not collide with the scenery beside the track, so the collision detection between the player's car and driving is mainly considered here.
+
+We know that when two vehicles run in parallel, the horizontal distance between them is small to a certain extent, they can be considered to have collided. When the longitudinal distance between them is small to a certain extent, they can be considered to have collided.
+
+This game checks the X, y coordinates of two cars to determine whether the two rectangles intersect to determine whether the collision occurs. After the collision, different collision effects will be set according to the role identities of the collision parties.
+
 ```markdown
 Syntax highlighted code block
+
+
 
 # Header 1
 ## Header 2
@@ -50,12 +73,3 @@ Syntax highlighted code block
 [Link](url) and ![Image](https://github.com/xywzhht/xywzhht.github.io/blob/master/KillerCar/img/6.jpg)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xywzhht/xywzhht.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
