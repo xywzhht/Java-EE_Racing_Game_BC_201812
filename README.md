@@ -53,9 +53,15 @@ We know that when two vehicles run in parallel, the horizontal distance between 
 This game checks the X, y coordinates of two cars to determine whether the two rectangles intersect to determine whether the collision occurs. After the collision, different collision effects will be set according to the role identities of the collision parties.
 
 ### Game interface
-Game launch interface
+
+#### Game launch interface
+
 ![Image](https://github.com/xywzhht/xywzhht.github.io/blob/master/KillerCar/img/03.png)
-Game ending interface
+
+#### Game ending interface
+
 ![Image](https://github.com/xywzhht/xywzhht.github.io/blob/master/KillerCar/img/04.png)
-Game allowed interface
+
+#### Game allowed interface
+
 ![Image](https://github.com/xywzhht/xywzhht.github.io/blob/master/KillerCar/img/05.png)
